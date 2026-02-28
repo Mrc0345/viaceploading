@@ -1,0 +1,16 @@
+- Orientações
+- Crie um projeto em Java utilizando o VsCode com Maven com nome viaceploading
+- Sugiro que crie o repositório no Github (público) e faça o clone
+- Atente-se as orientações abaixo e faça exatamente como solicitado.
+- 
+- Projeto
+ - A aplicação deve acesse a API ViaCEP - https://viacep.com.br/ws/{{CEP}}/json/ - e buscar as informações de um CEP informado pelo usuário. Ex: Usuário
+ - informa: 74735060
+- recebe:  Logradouro: Rua Capauam, bairro: Jardim Califórnia, cidade: Goiânia e uf: GO.
+ - A aplicação deve executar a buscar pelo cep em uma thread.
+- Enquanto busca as informações na API deve exibir uma animação 
+- Usuário deve visualizar a animação até que obtenha a resposta da API.
+- Entrega
+- Adicione um README.md na raiz do projeto, ou modifique o existente, com estas informações
+- Realize o git commit e git push
+- Adicionar link do repositório do Github como resposta.
